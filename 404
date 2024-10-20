@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>404</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(45deg, rgb(0, 0, 0), rgb(255, 255, 255), rgb(0, 0, 0), rgb(255, 255, 255));
+        background-size: 400% 400%;
+        animation: gradient 1ms ease infinite;
+        font-family: Arial, sans-serif;
+      }
+
+      @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+
+        50% {
+          background-position: 100% 50%;
+        }
+
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+      .blink {
+        color: red;
+        font-family: sans-serif;
+        font-size: 5rem;
+        text-align: center;
+        animation: blinker 1ms linear infinite;
+      }
+
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    </div>
+    <p class="blink"><strong>404</strong></p>
+  </body>
+
+</html>
